@@ -186,7 +186,9 @@ input[type="checkbox"] {
     }
 
     #zip {
-        width: 25%;
+        max-width: 25%;
+        align-self:flex-start;
+    }
     }
    
 
