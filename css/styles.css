@@ -4,7 +4,7 @@
 
 body {
    font-family: 'Lora', serif;
-   background-color: white;
+   background-color: whitesmoke;
    line-height: 1.5rem;
    color: #999;
 }
@@ -68,7 +68,7 @@ label {
 
 input, select, textarea {
     border: 0px;
-    background-color: #eff0f1;
+    background-color: #e3e5e7;
     height: 50px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -175,7 +175,7 @@ input[type="checkbox"] {
     }
 
     .field {
-        width: 70%;
+        width: 80%;
         margin-left: auto;
     }
  
