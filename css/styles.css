@@ -1,0 +1,192 @@
+* {
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Lora', serif;
+   background-color: white;
+   line-height: 1.5rem;
+   color: #999;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+  font-size: 1.3rem;
+  color:white;
+  background-color: #2d3945;
+  text-transform: uppercase;
+  padding: 25px;
+  margin-top: 0;
+}
+
+h2, legend {
+    font-size: 1.3rem; 
+    color: #2d3945;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.intro, .newsletter {
+    margin-top: 5px;
+}
+
+legend {
+    font-weight: 600;
+    text-align: left;
+}
+
+fieldset {
+    border: 0px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    display: block;
+}
+
+.field {
+    display: block;
+    width: 100%;
+    height: 3rem;
+    margin-top: 0.5rem;
+    border-radius: 7px;
+    background-color: #e9ecef;
+    border-style: hidden;
+  
+}
+
+input, select, textarea {
+    border: 0px;
+    background-color: #eff0f1;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #999;
+}
+
+textarea {
+    height: 100px;
+    width: 100%;
+}
+
+.field:focus {
+    transition: 0.5s;
+    box-shadow: 0 0 5px rgb(0, 138, 177);
+    padding: 3px 0px 3px 10px;
+    margin: 5px 1px 3px 0px;
+    border: 2px solid rgb(1, 150, 190);
+  }
+
+::placeholder {
+    color: #ccc;
+    text-align: right;
+    font-style: italic;
+    padding-right: 10px;
+    font-size: 0.85rem;
+  }
+
+.thick, 
+.thin  {
+    width: 90%;
+    color: black;
+    background-color: black;
+}
+
+.thick {
+    height: 3px;
+    margin-top: 30px;
+    margin-bottom: 2px;
+}
+
+.thin {
+    height: 1px;
+    margin-top: 2px;
+    margin-bottom: 25px;
+}
+
+#zip {
+    width: 50%;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  display: inline-block;
+  height: 20px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+}
+
+input[type="checkbox"] {
+ margin-top: 10px;
+
+}
+  
+  label.light {
+    display: inline;
+  }
+ 
+  button {
+    height: 52px;
+    color: #FFF;
+    background-color: #4ebbb5;
+    font-size: 1.3rem;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    width: 100%;
+    border: 0px;
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+    margin-bottom: 10px;
+  }
+
+  footer {
+      text-align: center;
+      font-size: 0.85rem;
+      font-style: italic;
+  }
+
+  @media screen and (min-width: 768px) {
+  
+  
+    main {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 0.6rem;
+        
+    }
+    .field {
+        width: 70%;
+        margin-left: auto;
+    }
+ 
+    .newsletter, button {
+      width: 60%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    #zip {
+        width: 25%;
+    }
+   
+
+  }
