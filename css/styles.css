@@ -117,6 +117,7 @@ textarea {
 
 #zip {
     width: 50%;
+    align-self: flex-start;
 }
 
 input[type="radio"],
@@ -175,7 +176,7 @@ input[type="checkbox"] {
     }
 
     .field {
-        width: 80%;
+        width: 70%;
         margin-left: auto;
     }
  
