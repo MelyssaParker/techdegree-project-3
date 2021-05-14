@@ -82,10 +82,11 @@ textarea {
 
 .field:focus {
     transition: 0.5s;
-    box-shadow: 0 0 5px rgb(0, 138, 177);
+    box-shadow: 0 0 5px navy;
     padding: 3px 0px 3px 10px;
     margin: 5px 1px 3px 0px;
-    border: 2px solid rgb(1, 150, 190);
+    border: 2px solid navy;
+    outline: none;
   }
 
 ::placeholder {
